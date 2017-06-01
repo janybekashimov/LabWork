@@ -1,0 +1,187 @@
+/*CSS*/
+
+body, html {
+	font-family:Tahoma, Geneva, sans-serif;
+    font-size:12px;
+    margin:0px;
+    padding:0px;
+    background: #978d8d url(../images/15.jpg) top center repeat-x;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom:13px;
+    padding-top:9px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius:2px;
+    transition: ease-out 0.4s;
+}
+
+#menu a:hover{
+    background: white;
+    color: black;
+
+    }
+
+#header{
+    background: url(../images/header.png) top center no-repeat;
+    height: 104px;
+    margin-bottom: 1px;
+}
+
+#menu{
+    font-family:Arial, Geneva, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    
+    background: url(../images/main-bg.png) top center no-repeat;
+    height:30px;
+    padding-left:10px;
+    padding-bottom:10px;
+    margin-bottom: 1px;
+
+    
+
+}
+
+#menu div{
+    float:left;
+    margin-right: 30px;
+    margin-top:10px;
+
+}
+
+#cart{                          /*стили корзины*/
+    float:right!important;
+    color: #d3df17!important;
+
+}
+
+#cart a{
+    color: #d3df17!important;
+}
+
+#cart a:hover{
+    color: #111111!important;
+}
+
+#main-block{                    /*задний фон блока*/
+    background: url(../images/13.jpg) top center no-repeat;
+    height: 478px;
+    
+
+}
+
+.product{                       /*позиции товаров*/
+    width:137px;
+    height:174px;
+    float:left;
+    margin:30px 10px 0 70px;
+
+
+}
+
+.description{                   /*стили описания*/
+    font-family: Arial; 
+    width:137px;
+    background: #101211;     
+    text-align: center;
+    padding-left:0px;
+    padding-bottom:0px;
+    
+    margin-left: 4px;
+
+    border-radius: 0 0 5px 5px;
+
+
+
+}
+
+ .description div:hover{
+    background: grey;  
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    transition: ease-out 0.4s;
+}
+ 
+.product-name{
+    color: #fff;
+    font-weight:500;
+    font-size:15px;  
+    padding:2px;
+    
+    
+
+}
+
+
+
+
+
+.product-price{
+    color: #d4e51c;
+    font-style: italic;
+    padding:2px;
+}
+
+#footer-td{
+    background: url(../images/main-bg.png) top center no-repeat;
+    height:30px;
+    border-radius: 0 0 3px 3px;
+    padding-bottom: 7px;
+}
+
+.footer{
+    font-family: Arial;
+    font-style: italic;
+    font-weight:bold;
+    text-align:right;
+    width:95%;
+    border-top:1px solid #fff;
+    font-size:12px;
+    color: #77730b;
+    padding: 5px 0 0 0;
+    
+
+}
+
+#mycart{
+    width:60%;
+    background: #898181;
+    border-radius: 3px;
+    padding:3px;
+    
+
+}
+
+#mycart th{
+    border-bottom:1px solid #fff;
+    padding:3px;
+    
+    
+}
+
+#mycart tr,input{
+    
+    border-radius: 3px;
+
+    
+}
+
+.total{
+    color: #fff;
+    font-weight:bold;
+
+
+}
+
+#cart-form .product-price{
+    font-style: normal;
+
+
+}
+
+
